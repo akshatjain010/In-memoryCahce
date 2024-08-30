@@ -24,7 +24,6 @@ import lombok.RequiredArgsConstructor;
 @Data
 @NoArgsConstructor 
 @AllArgsConstructor
-@RequiredArgsConstructor
 public class Book implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
